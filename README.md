@@ -37,7 +37,7 @@ npm run dev
 ```bash
 npm run build
 ```
-Also check the (general) tips on reducing the output size of your CSS: [https://hgrid.io/documentation/production/](https://hgrid.io/documentation/production/)
+Also check the (general) tips on [reducing the output size](https://hgrid.io/documentation/production/) of your CSS.
 
 ## Template Setup
 
