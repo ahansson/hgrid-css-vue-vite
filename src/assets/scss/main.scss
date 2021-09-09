@@ -1,0 +1,13 @@
+@use 'hgrid-css/sass/hgrid' with (
+  $link-color: #184b00,
+  $link-color-hover: #72c24d,
+  $container-max-width: 1600px,
+  $link-underline-color: #c7dd9d,
+  $focus-border-color: red,
+  $include-grid: false, // exclude grid utilities
+  $use-global-link-underlines: true, // nicer text links
+  $include-fade: false, // exclude some hgrid animations
+  $include-flash: false,
+  $include-rotate: false,
+  $include-spinner: false
+);
