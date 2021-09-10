@@ -26,6 +26,14 @@
   </p>
 </template>
 
-<style>
+<style lang="scss">
+  @use 'hgrid-css/sass/variables/_variables' as *;
 
+  .variable-test {
+    background-color: $color-red; // internal hgrid variable exposed with @use
+  }
+
+  .custom-property-test {
+    background-color: var(--color-red); // hgrid custom property, no @use/import required
+  }
 </style>
